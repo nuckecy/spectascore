@@ -1,1 +1,1 @@
-# spectascore
+# Specta Score Design
