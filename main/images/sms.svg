@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="699px" height="609px" viewBox="0 0 699 609" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>Group 4</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-4">
+            <path d="M515.001415,97 C515.000472,97.1665556 515,97.3332227 515,97.5 C515,145.105854 553.457442,183.72949 601,183.998585 L601,446 C601,473.061953 579.061953,495 552,495 L276.604589,495 L153.925327,599.628245 C137.503963,613.633371 112.838419,611.674623 98.8332923,595.253258 C91.0886903,586.172516 87.9182561,574.050546 90.2252391,562.340868 L103.492405,495 L49,495 C21.9380473,495 3.31413338e-15,473.061953 0,446 L0,146 C-3.31413338e-15,118.938047 21.9380473,97 49,97 L515.001415,97 Z" id="Combined-Shape" fill="#590048"></path>
+            <circle id="Oval-Copy-2" fill="#590048" cx="612.5" cy="86.5" r="86.5"></circle>
+            <text id="1" font-family="Roboto-Bold, Roboto" font-size="122" font-weight="bold" letter-spacing="5.30434783" fill="#871B97">
+                <tspan x="576" y="129">1</tspan>
+            </text>
+            <text id="SMS" font-family="Roboto-Bold, Roboto" font-size="182" font-weight="bold" letter-spacing="7.91304348" fill="#871B97">
+                <tspan x="100" y="367">SMS</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
