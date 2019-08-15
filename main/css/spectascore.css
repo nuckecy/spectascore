@@ -466,19 +466,19 @@
 }
 
 .input::-webkit-input-placeholder {
-  color: #fff;
+  color: #adadad;
 }
 
 .input:-ms-input-placeholder {
-  color: #fff;
+  color: #adadad;
 }
 
 .input::-ms-input-placeholder {
-  color: #fff;
+  color: #adadad;
 }
 
 .input::placeholder {
-  color: #fff;
+  color: #adadad;
 }
 
 .input.dropdown {
@@ -507,7 +507,7 @@
   margin-bottom: 0px;
   border: 1px none #000;
   background-color: #19003c;
-  color: #fff;
+  color: #adadad;
   line-height: 1px;
 }
 
@@ -721,11 +721,30 @@
 }
 
 .forecast {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 300px;
   padding: 0px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
   font-family: Merriweather, serif;
   color: #fff;
   font-size: 17px;
   line-height: 19px;
+  font-weight: 400;
   text-align: center;
 }
 
@@ -746,6 +765,15 @@
   font-weight: 600;
 }
 
+.loan-btn.take-loan {
+  margin-top: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 20px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 23px;
+}
+
 .btn-exp {
   -webkit-box-flex: 0;
   -webkit-flex: 0 0 auto;
@@ -762,7 +790,7 @@
   border-color: #751883;
   border-radius: 20px;
   background-color: transparent;
-  color: #8d8d8d;
+  color: silver;
   font-size: 11px;
   line-height: 15px;
   text-align: center;
@@ -1425,9 +1453,10 @@
   border-color: #751882;
   border-radius: 20px;
   background-color: #751883;
-  color: #8d8d8d;
-  font-size: 11px;
-  line-height: 15px;
+  color: #fff;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
   text-align: center;
   text-decoration: none;
 }
@@ -1569,7 +1598,7 @@
   margin-bottom: 10px;
   font-family: Montserrat, sans-serif;
   font-size: 18px;
-  line-height: 22px;
+  line-height: 19px;
   font-weight: 300;
   text-align: center;
 }
@@ -1611,11 +1640,14 @@
 .loan-amt {
   font-size: 30px;
   line-height: 25px;
+  font-weight: 700;
 }
 
 .score-history {
   margin-top: 0px;
   margin-bottom: 0px;
+  padding: 0px;
+  background-color: transparent;
   color: #ffb700;
   font-size: 11px;
   line-height: 20px;
@@ -1689,6 +1721,7 @@
   position: absolute;
   top: 65%;
   z-index: 10;
+  display: none;
   width: 320px;
   height: auto;
   padding: 12px 15px 15px;
@@ -1911,6 +1944,8 @@
   left: 19.766px;
   top: 174px;
   margin-left: 0px;
+  padding: 0px;
+  background-color: transparent;
   color: #ffb700;
   font-size: 10px;
   line-height: 16px;
@@ -1958,6 +1993,30 @@
   text-align: center;
 }
 
+.text-block-6 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.back-result {
+  margin-top: 10px;
+  padding: 10px 50px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #c70085;
+  border-radius: 20px;
+  background-color: transparent;
+  color: #fff;
+  font-size: 11px;
+  line-height: 15px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.input-block {
+  color: #fff;
+}
+
 @media (max-width: 991px) {
   .hero {
     -webkit-box-orient: horizontal;
@@ -1989,8 +2048,11 @@
     padding-left: 0px;
   }
   .circle-big {
-    right: 7%;
+    right: 1%;
     bottom: 9%;
+    width: 170px;
+    height: 170px;
+    padding: 34px;
   }
   .form {
     margin-right: 100px;
@@ -2219,10 +2281,10 @@
   }
   .circle-big {
     right: 2%;
-    bottom: 5%;
+    bottom: 38%;
     z-index: 0;
-    width: 150px;
-    height: 150px;
+    width: 130px;
+    height: 130px;
     padding: 12px;
   }
   .circle-small {
@@ -2310,6 +2372,11 @@
   .form-grid {
     position: relative;
   }
+  .brag {
+    padding-top: 0px;
+    font-size: 13px;
+    line-height: 14px;
+  }
   .links {
     position: absolute;
     -webkit-box-orient: vertical;
@@ -2338,7 +2405,7 @@
     display: block;
   }
   .result {
-    margin: 10px 18px 18px;
+    margin: 60px 18px 18px;
     padding-right: 40px;
     padding-left: 40px;
   }
@@ -2389,6 +2456,9 @@
   .loan-amt {
     font-size: 30px;
     line-height: 27px;
+  }
+  .score-history {
+    font-size: 13px;
   }
   .score-container {
     margin: 20px;
@@ -2444,6 +2514,13 @@
     width: 90%;
     padding-right: 0px;
     padding-left: 0px;
+  }
+  .text-block-6 {
+    font-size: 16px;
+    line-height: 23px;
+  }
+  .back-result {
+    display: block;
   }
 }
 
@@ -2653,7 +2730,7 @@
     display: none;
   }
   .forecast {
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     font-size: 13px;
     line-height: 16px;
   }
@@ -2924,6 +3001,13 @@
     font-size: 17px;
     line-height: 22px;
   }
+  .back-result {
+    width: 230px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
 }
 
 #w-node-8c337f8537f0-6ab73ac2 {
@@ -3063,3 +3147,4 @@
   -ms-grid-column-span: 2;
   grid-column-end: span 2;
 }
+
